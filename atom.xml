@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>派翠的coding日常</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-11-04T07:27:51.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Patrice Lee</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初探 docker machine</title>
+    <link href="http://yoursite.com/2017/11/04/docker-machine/"/>
+    <id>http://yoursite.com/2017/11/04/docker-machine/</id>
+    <published>2017-11-04T05:46:05.000Z</published>
+    <updated>2017-11-04T07:27:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="什麼是Docker-Machine"><a href="#什麼是Docker-Machine" class="headerlink" title="什麼是Docker Machine"></a>什麼是Docker Machine</h1><p>能夠安裝Docker Engine 在 virtual hosts,並且能夠透過docker-machine管理它</p><p>支援: Mac or Windows box, on your company network, in your data center, or on cloud providers like Azure, AWS, or Digital Ocean.</p><hr><h3 id="Create-a-machine"><a href="#Create-a-machine" class="headerlink" title="Create a machine"></a>Create a machine</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker-machine create --driver virtualbox default</div></pre></td></tr></table></figure><h3 id="List-available-machines"><a href="#List-available-machines" class="headerlink" title="List available machines"></a>List available machines</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker-machine ls</div></pre></td></tr></table></figure><h3 id="Get-the-environment-commands-for-your-new-VM"><a href="#Get-the-environment-commands-for-your-new-VM" class="headerlink" title="Get the environment commands for your new VM."></a>Get the environment commands for your new VM.</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker-machine env default</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;什麼是Docker-Machine&quot;&gt;&lt;a href=&quot;#什麼是Docker-Machine&quot; class=&quot;headerlink&quot; title=&quot;什麼是Docker Machine&quot;&gt;&lt;/a&gt;什麼是Docker Machine&lt;/h1&gt;&lt;p&gt;能夠安裝
+      
+    
+    </summary>
+    
+      <category term="docker" scheme="http://yoursite.com/categories/docker/"/>
+    
+    
+  </entry>
+  
+</feed>
